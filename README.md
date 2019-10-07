@@ -1,10 +1,10 @@
 # Linotype
 
-Linotype is a simple ruby implementation of the [Letterpress for iOS](http://www.atebits.com/letterpress/) game mechanic. Letterpress was created by [Loren Brichter](http://twitter.com/lorenb) and is [sold on iTunes](https://itunes.apple.com/us/app/letterpress-word-game/id526619424?ls=1&mt=8). Linotype is meant to be used to write other programs such as simple player command line games, cheating/simulation programs, web-based versions, or whatever else you can think of. My goal is that the community will submit pull requests to this project so that programs can share a common engine.
+Linotype is a simple ruby implementation of the [Letterpress for iOS](http://www.atebits.com/letterpress/) game mechanic. Letterpress was created by [Loren Brichter](http://twitter.com/lorenb) and is [sold on iTunes](https://itunes.apple.com/us/app/letterpress-word-game/id526619424?ls=1&mt=8). Linotype是[Letterpress for iOS]（http://www.atebits.com/letterpress/）游戏机制的简单红宝石实现。 凸版印刷机是由[Loren Brichter]（http://twitter.com/lorenb）创建的，并且[在iTunes上出售]（https://itunes.apple.com/us/app/letterpress-word-game/id526619424?ls = 1＆mt = 8）。 Linotype用于编写其他程序，例如简单的玩家命令行游戏，作弊/模拟程序，基于Web的版本或您能想到的其他任何程序。 我的目标是社区将向该项目提交请求请求，以便程序可以共享一个公共引擎。
 
-The project was inspired by this [tweet by Andy Baio](https://twitter.com/waxpancake/statuses/261966416507465728).
+该项目的灵感来自于此 [tweet by Andy Baio](https://twitter.com/waxpancake/statuses/261966416507465728).
 
-The project was started by [@barelyknown](http://twitter.com/barelyknown).
+该项目始于 [@barelyknown](http://twitter.com/barelyknown).
 
 ## Installation
 
@@ -12,9 +12,9 @@ The project was started by [@barelyknown](http://twitter.com/barelyknown).
 
 ## Usage
 
-The library provides a very simple interface using built in Ruby objects. The goal of the design is to use object oriented design strategies internally but to keep the public interface very simple to make it easy to use and extend.
+该库使用内置的Ruby对象提供了一个非常简单的接口。 设计的目标是在内部使用面向对象的设计策略，但要保持公共接口非常简单以使其易于使用和扩展。
 
-Here's a basic rundown of the primary public methods:
+这是主要的公共方法的基本清单：
 
     >   game = Linotype::Game.new
     
